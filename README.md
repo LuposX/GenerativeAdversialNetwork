@@ -44,12 +44,14 @@ I used various tricks such as:
 - Internet
 
 ## Usage
-1. Download the Jupyter Notebook files(`.ipynb`) you want to use for the corresponding model
+1. Download the Jupyter Notebook files(`.ipynb`) you want to use for the corresponding model from the folder `code`.
 2. Run it with Jupyter Notebook/Lab or Google Colab 
 
 Notes:
-When using google colab all missing packages should be installed by itself.
-If you use juptyer notebook on a local machine you need to install the missing packages by yourself.
+- When using google colab all missing packages should be installed by itself.
+- If you use juptyer notebook on a local machine you need to install the missing packages by yourself.
+- Check Disclaimer
+
 
 ## Disclaimer
 When I did the project a while ago my documentation wasn't very clear/clean. That lead to many different Jupyter Notebooks
