@@ -1,8 +1,12 @@
 # GenerativeAdversialNetwork
 > In this project I tried to get a Generative Adversial Network(short GAN) to work
-
+> 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-
+[![Maintenance](https://img.shields.io/badge/Maintained%3F-no-red.svg)](https://bitbucket.org/lbesson/ansi-colors)
+[![Open In Collab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Naereen/badges)
+<img alt="Python" src="https://img.shields.io/badge/python-%2314354C.svg?style=for-the-badge&logo=python&logoColor=white"/>
+<img alt="PyTorch" src="https://img.shields.io/badge/PyTorch-%23EE4C2C.svg?style=for-the-badge&logo=PyTorch&logoColor=white" />
+<img alt="NumPy" src="https://img.shields.io/badge/numpy-%23013243.svg?style=for-the-badge&logo=numpy&logoColor=white" />
 
 ![header](Images/GAN_EXAMPLE.png)
 
@@ -57,7 +61,7 @@ This means when choosing the Jupyter Notebook file to use, look at the file name
 Not all Jupyter Notebook files will work on first try, some files might need some tinkering. Thats because: 
 - some files dont train the model from scratch(Epoch 0) but load a model and contine training from a checkpoint(e.g. Epoch 50, Epoch 100).
 You need to turn that off.  
-=> to do that: comment `resume_from_checkpoint=""` out in `pl.Trainer`.
+=> to do that: comment `resume_from_checkpoint=""` out in `pl.Trainer()`.
 
 - some Model train with  custom dataset which consist of GHIBLI Images (Hand drawn Movie Images)
 To use that use a different dataset.  
