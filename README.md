@@ -15,6 +15,9 @@
 2. Run it with Jupyter Notebook/Lab or Google Colab 
 
 ## Results
+![GAN_MNIST](Images/gan_mnist.PNG)
+![DCGAN_MNIST](Images/DCGAN_mnist.PNG)
+![DCGAN_V2_MNIST](Images/DCGAN_v2_mnist.PNG)
 
 ## Meta
 
