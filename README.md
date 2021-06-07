@@ -15,9 +15,20 @@
 2. Run it with Jupyter Notebook/Lab or Google Colab 
 
 ## Results
+- [x] Standart MLP
 ![GAN_MNIST](Images/gan_mnist.PNG)
+
+- [x] DCGAN "standart"
 ![DCGAN_MNIST](Images/DCGAN_mnist.PNG)
+
+- [x] DCGAN with "tricks"/"Opzimized"
 ![DCGAN_V2_MNIST](Images/DCGAN_v2_mnist.PNG)
+
+- [x] DCGAN with Colored Landscape Images(Way more complicated than MNIST)(Image size: 64x64)
+![DCGAN_V2_MNIST](Images/DCGAN_V4_2_GHIBLI.PNG)
+
+- [x] DCGAN with Flower Images and bigger Image size(128x128)
+![DCGAN_V2_MNIST](Images/DCGAN_V6_2_FLOWER.PNG)
 
 ## Meta
 
