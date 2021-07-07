@@ -31,7 +31,7 @@ also meta information such as label.
 
 **Tricks:**  
 I used various tricks such as:
--  Introductin _[Instance Noise](https://www.inference.vc/instance-noise-a-trick-for-stabilising-gan-training/)_ to images in order to get a "better" distribution.
+-  _[Instance Noise](https://www.inference.vc/instance-noise-a-trick-for-stabilising-gan-training/)_  in order to get a "better" distribution.
 -  Using _soft labels_
 -  Adding experience Replay
 -  For further trick check [here](https://github.com/soumith/ganhacks), [here](https://medium.com/@utk.is.here/keep-calm-and-train-a-gan-pitfalls-and-tips-on-training-generative-adversarial-networks-edd529764aa9) and [here](https://medium.com/intel-student-ambassadors/tips-on-training-your-gans-faster-and-achieve-better-results-9200354acaa5).  
